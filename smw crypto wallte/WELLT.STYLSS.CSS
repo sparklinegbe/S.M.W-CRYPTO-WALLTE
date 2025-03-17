@@ -1,0 +1,121 @@
+*CSS (styles.css):*
+css
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and container */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.wallet-header {
+margin-bottom: 20px;
+}
+
+.wallet-header h1 {
+    font-size: 32px;
+    color: #4CAF50;
+}
+
+.wallet-header p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Wallet Info */
+.wallet-info {
+    margin-bottom: 30px;
+}
+
+.balance, .address {
+    margin-bottom: 20px;
+}
+
+.balance h3, .address h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.balance-amount {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+.address p {
+    font-size: 16px;
+    color: #555;
+    word-wrap: break-word;
+}
+
+.copy-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.copy-btn:hover {
+    background-color: #45a049;
+}
+
+/* Actions (Send/Receive) */
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.send, .receive {
+    width: 48%;
+}
+.send input, .receive input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.send-btn, .receive-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.send-btn:hover, .receive-btn:hover {
+    background-color: #45a049;
+}
+/* Footer */
+.wallet-footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
+```
